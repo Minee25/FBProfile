@@ -168,7 +168,7 @@ hr {
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     animation: textrgb;
-    animation-duration: 5s;
+    animation-duration: 7s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
 }
