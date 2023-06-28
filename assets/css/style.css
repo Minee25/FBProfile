@@ -84,8 +84,8 @@ hr {
 }
 
 .avatar {
-    height: 168px;
-    width: 168px; 
+    height: 175px;
+    width: 175px; 
     position: absolute;
     transform: translateY(-30%);
 }
