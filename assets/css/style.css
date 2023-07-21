@@ -52,12 +52,12 @@ hr {
     pointer-events: none;
 }
 
-.profile-cover video {
+.profile-cover video,
+.profile-cover img {
     height: 100%;
     width: 100%;
     object-fit: cover;
-}
-
+} 
 /* name-profile */
 
 .name-profile {
@@ -421,7 +421,7 @@ hr {
 
 .box-nav-in-right-list a {
     display: inline-block;
-    padding: 10px 10px;
+    padding: 10px 0px;
     color: #8c939d;
     text-decoration: none;
     border-radius: 7px;
@@ -587,8 +587,8 @@ hr {
 
 .post-caption {
     color: #fff;
-    margin-top: 5px;
-    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 15px;
 }
 
 .post-image img,
@@ -623,6 +623,11 @@ hr {
     color: #fff;
     display: flex;
     align-items: center;
+    padding: 5px;
+}
+.user-like-post a:hover {
+    background: #3a3b3c;
+    border-radius: 7px;
 }
 
 /*  */
