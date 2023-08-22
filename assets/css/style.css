@@ -706,7 +706,7 @@ hr {
     height: 120px;
     width: 120px;
     /* background: #eee; */
-    background: linear-gradient(180deg, #2d100b, #a92e23);
+    background: linear-gradient(180deg, #2d100b, #a92e23); 
     display: flex;
     justify-content: center;
     align-items: center;
