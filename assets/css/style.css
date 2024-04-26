@@ -99,8 +99,8 @@ hr {
 }
 
 .avatar {
-    height: 175px;
-    width: 175px;
+    height: 168px;
+    width: 168px;
     position: absolute;
     transform: translateY(-30%);
 }
@@ -710,11 +710,13 @@ hr {
     height: 120px;
     width: 120px;
     /* background: #eee; */
-    background: linear-gradient(180deg, #2d100b, #a92e23); 
+    /* background: linear-gradient(180deg, #2d100b, #a92e23); */
+    background: linear-gradient(180deg, #d13cff, #89dee3);
+    border: 2px solid #4ff6ff;
+    border-radius: 20px 0 0 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .card-cd img {
