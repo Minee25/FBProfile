@@ -64,7 +64,7 @@ const musicUrlLists = [
     like: "care.png",
     likeText: "ห่วงใย",
     likeColor: "#F7B125",
-    allLike: ["care.png", "wow.png", "like.png"],
+    allLike: ["care.png", "love.png", "wow.png"],
     userLikeText: "คุณ, Minee และคนอื่นๆ อีก 925 คน",
   },
 ];
