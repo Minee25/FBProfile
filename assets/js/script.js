@@ -37,7 +37,7 @@ const musicUrlLists = [
   {
     id: 4,
     dataPost: "22 เมษายน 2024",
-    caption: "Girl, You super sexy 🥵",
+    caption: "Girl, You super sexy🫣",
     music: "4.mp3",
     like: "wow.png",
     likeText: "ว้าว",
@@ -58,14 +58,25 @@ const musicUrlLists = [
   },
   {
     id: 6,
-    dataPost: "22 เมษายน 2024",
-    caption: "🌹🌹",
+    dataPost: "17 กรกฎาคม 2024",
+    caption: "3^o7",
     music: "6.mp3",
     like: "care.png",
     likeText: "ห่วงใย",
     likeColor: "#F7B125",
     allLike: ["care.png", "love.png", "wow.png"],
-    userLikeText: "คุณ, Minee และคนอื่นๆ อีก 925 คน",
+    userLikeText: "คุณ, Minee และคนอื่นๆ อีก 115 คน",
+  },
+  {
+    id: 7,
+    dataPost: "17 กรกฎาคม 2024",
+    caption: "ในคืนที่ดาวอยู่เต็มฟ้า✨✨",
+    music: "7.mp3",
+    like: "care.png",
+    likeText: "ห่วงใย",
+    likeColor: "#F7B125",
+    allLike: ["care.png", "love.png", "wow.png"],
+    userLikeText: "คุณ, Minee และคนอื่นๆ อีก 95 คน",
   },
 ];
 
