@@ -61,17 +61,20 @@ hr {
 
 #cursor {
     animation: blink-caret 0.75s step-end infinite;
-  }
-  
-  @keyframes blink-caret {
-    from, to {
-      border-color: transparent;
+}
+
+@keyframes blink-caret {
+
+    from,
+    to {
+        border-color: transparent;
     }
+
     50% {
-      border-color: #333;
+        border-color: #333;
     }
-  }
-  
+}
+
 /* name-profile */
 
 .name-profile {
@@ -485,67 +488,6 @@ hr {
     margin-left: 5px;
 }
 
-@media screen and (max-width: 768px) {
-
-    .box-left-right {
-        flex-wrap: wrap;
-    }
-
-    .left {
-        width: 100%;
-        margin-left: 0px;
-        margin-right: 0px;
-    }
-
-    .name {
-        margin-left: 0px;
-        align-items: start;
-        display: flex;
-        justify-content: start;
-    }
-
-    .addfriend-chat {
-        width: 100%;
-    }
-
-    .addfriend {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-    }
-
-    .addfriend button {
-        width: 100%;
-    }
-
-    .addfriend button:last-child {
-        width: 20%;
-    }
-
-    .name-profile {
-        padding: 0 10px;
-    }
-
-    .box-avatar {
-
-        height: 65px;
-    }
-
-    .avatar-name {
-        min-height: 80px;
-        display: block;
-    }
-
-    .avatar {
-        transform: translateY(-70%);
-    }
-
-    .profile-cover {
-        height: 200px;
-    }
-}
-
-
 .box-post {
     margin-top: 15px;
     background: #242526;
@@ -584,9 +526,11 @@ hr {
 .username-post h4 {
     color: #fff;
 }
+
 .username-post h4:hover {
     cursor: pointer;
 }
+
 .username-post p {
     font-size: 14px;
 }
@@ -770,17 +714,18 @@ hr {
     animation: music;
     animation-duration: 4s;
     animation-timing-function: linear;
-    animation-iteration-count: infinite; 
+    animation-iteration-count: infinite;
 }
 
-.cd img{
+.cd img {
     position: absolute;
     z-index: 1;
     height: 100%;
     width: 100%;
 
 }
-.cd .rotate{
+
+.cd .rotate {
     animation: music 4s linear infinite;
     /* 4s duration, linear easing, infinite loop */
 }
@@ -818,9 +763,11 @@ hr {
     0% {
         color: #00ccff;
     }
+
     50% {
         color: #d400d4;
     }
+
     100% {
         color: #00ccff;
     }
@@ -836,6 +783,88 @@ hr {
     color: #fff;
 }
 
-.box-music-error .hidden{
+.box-music-error .hidden {
     display: none;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .box-left-right {
+        flex-wrap: wrap;
+    }
+
+    .left {
+        width: 100%;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .name {
+        margin-left: 0px;
+        align-items: start;
+        display: flex;
+        justify-content: start;
+    }
+
+    .addfriend-chat {
+        width: 100%;
+    }
+
+    .addfriend {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .addfriend button {
+        width: 100%;
+    }
+
+    .addfriend button:last-child {
+        width: 20%;
+    }
+
+    .name-profile {
+        padding: 0 10px;
+    }
+
+    .box-avatar {
+
+        height: 65px;
+    }
+
+    .avatar-name {
+        min-height: 80px;
+        display: block;
+    }
+
+    .avatar {
+        transform: translateY(-70%);
+    }
+
+    .profile-cover {
+        height: 200px;
+    }
+
+    .box-nav-in-right-list a {
+        font-size: 14px;
+    }
+
+    .box-like-share-comment button p {
+        font-size: 14px;
+    }
+
+    .like img {
+        height: 16px;
+        width: 16px;
+    }
+
+    .comment i {
+        font-size: 14px
+    }
+
+    .share i {
+        font-size: 14px
+    }
 }
